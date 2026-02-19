@@ -458,9 +458,9 @@ document.querySelectorAll('[id^="direccion-"]').forEach(function(direccion) {
   
       // Función para actualizar el valor progresivo y el tiempo de espera
       function updateValue() {
-        let currentValue = parseFloat(localStorage.getItem('usdt-raised')) || 1936512.52; // Valor inicial
+        let currentValue = parseFloat(localStorage.getItem('usdt-raised')) || 76512.52; // Valor inicial
         const targetValue = 600000000.00; // Valor objetivo
-        const increment = getRandomNumber(23.48, 218.13); // Incremento aleatorio
+        const increment = getRandomNumber(1.48, 21.13); // Incremento aleatorio
   
         // Incrementar el valor actual
         const newValue = Math.min(currentValue + increment, targetValue);
@@ -530,6 +530,7 @@ tokenInput.addEventListener('input', function () {
         bnbInput.value = '';
     }
 });
+
 
 
 
